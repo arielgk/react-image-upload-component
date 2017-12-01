@@ -1,0 +1,44 @@
+.react-modal-container {
+
+  font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  z-index: 1030;
+
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.39);
+  .react-modal-popup {
+    background: #fff;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    .react-modal-preload{
+      width: 100%;
+
+
+      text-align: center;
+    }
+    .react-modal-header {
+      width: 100%;
+    }
+    .react-modal-content {
+      #react-modal-submit {
+        margin-left: 5px;
+
+      }
+    }
+    .react-modal-footer {
+      width: 100%;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+.react-image-upload-preview {
+  margin-top: 10px;
+  .react-image-upload-preview-image {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .react-image-upload-preview-toolbar {
+    background: #ccc;
+    padding: 5px 10px;
+    text-align: right;
+    height: 28px;
+
+    .close {
+      cursor: pointer;
+
+    }
+
+  }
+}
+
